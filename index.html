@@ -4,8 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Christopher Wenzlick - Professional Software Engineer</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css" integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+        integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+        <!-- Update these with your own fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
@@ -32,7 +44,7 @@
                 Hi, my name is <strong>Christopher Wenzlick</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
-                <img src="https://picsum.photos/300" alt="a picture of Christopher Wenzlick">
+                <img src="https://picsum.photos/500" alt="a picture of Christopher Wenzlick" class="intro__img">
         </section>
 
 
@@ -70,26 +82,25 @@
         <!-- About Me -->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about"></p>
+            <p class="section__subtitle section__subtitle--about">SE and game dev based out of TN</p>
 
             <div class="about-me__body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
             </div>
 
-            <img src="https://picsum.photos/300" alt="picture of Chris relaxing">
+            <img src="https://picsum.photos/300" alt="picture of Chris relaxing" class="about-me__img">
         </section>
 
         
         <!-- My Work -->
         <section class="my-work" id="work">
-            <h2 class="section__title">My Work</h2>
-            <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">Some of the projects I have worked on</p>
 
             <div class="portfolio">
                 <!-- Portfolio item 01 -->
@@ -146,14 +157,30 @@
 
 
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <!-- NOTE: replace with your own email address -->
             <a href="mailto:test@fakemail.lol" class="footer__link">test@fakemail.lol</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://dribbble.com">b</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://dribbble.com">
+                        <i class="fa-brands fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
     </body>
